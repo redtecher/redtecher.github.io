@@ -17,16 +17,32 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Hong Chuan</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hong Chuan">
-<meta property="og:url" content="http://example.com/index.html">
+  <title>MISC流量分析题 | Hong Chuan</title>
+  <meta name="description" content="1.流量分析1拉入科来流量分析  很明显应该在http request和response里面  明显发现有select from flag 字样 而且有%25 所以应该是进行了两层url编码 解析一下 123456789from urllib import parseencoded_str  &#x3D; &#x27;&#x2F;index.php?url&#x3D;gopher:&#x2F;&#x2F;127.0.0.1:80&#x2F;_POST%20">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MISC流量分析题">
+<meta property="og:url" content="http://example.com/2024/11/23/post/index.html">
 <meta property="og:site_name" content="Hong Chuan">
+<meta property="og:description" content="1.流量分析1拉入科来流量分析  很明显应该在http request和response里面  明显发现有select from flag 字样 而且有%25 所以应该是进行了两层url编码 解析一下 123456789from urllib import parseencoded_str  &#x3D; &#x27;&#x2F;index.php?url&#x3D;gopher:&#x2F;&#x2F;127.0.0.1:80&#x2F;_POST%20">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732171335315-084b0fb5-dc39-4cd5-b153-e07d55e510a1.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732171292337-c931dcf7-bc5f-452d-a8b0-364c8b185125.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732239116277-b8c3f32f-02ed-4ce0-a06e-da1975b0232a.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732239148138-26028d06-b859-4fda-a1d4-176bd40d0e61.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732239062844-1f7047b3-a6db-4a89-9955-61dd0e7aaeaa.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732239486589-ac7058b2-4baf-4ca5-a5a1-9272f545d445.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732241357548-2a5cbbc3-ec40-4121-94a0-e23836dd8ab7.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732246195514-a0ba8d5b-e21e-4fca-9ad0-3d0a72b71fc5.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732246217952-39b99e5b-7fd8-409a-8cd9-0998fd7c9bf0.png">
+<meta property="og:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732246244172-ecd4ae63-8f39-4ea4-9feb-8b780ec5fa1b.png">
+<meta property="article:published_time" content="2024-11-23T03:04:19.000Z">
+<meta property="article:modified_time" content="2024-11-23T03:06:49.811Z">
 <meta property="article:author" content="Hong Chuan">
+<meta property="article:tag" content="流量分析，MISC">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.nlark.com/yuque/0/2024/png/47776519/1732171335315-084b0fb5-dc39-4cd5-b153-e07d55e510a1.png">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://example.com/index.html">
+  <link rel="canonical" href="http://example.com/2024/11/23/post/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hong Chuan" type="application/atom+xml">
   
@@ -276,18 +292,17 @@
 </aside>
 
   
-  <main class="main" role="main">
   
-  
-    <div class="content">
+<main class="main" role="main">
+  <div class="content">
   <article id="post-post" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2024/11/23/post/">MISC流量分析题</a>
+    <h1 class="article-title" itemprop="name">
+      MISC流量分析题
     </h1>
   
 
@@ -406,11 +421,80 @@
     </div>
   </article>
   
-</div>
+    
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
+
 
   
+</div>
 
-   
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>赏</span></button>
+  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
+    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
+  </div> -->
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,tencent,qzone,douban" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+<!-- Modal -->
+<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content donate">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-head">
+            <p>感谢您的支持，我会继续努力的!</p>
+          </div>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade active in" id="alipay">
+              <div class="donate-payimg">
+                <img src="/images/donate/alipayimg.png" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开支付宝扫一扫，即可进行扫码打赏哦</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="wechatpay">
+              <div class="donate-payimg">
+                <img src="/images/donate/wechatpayimg.png" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开微信扫一扫，即可进行扫码打赏哦</p>
+            </div>
+          </div>
+          <div class="donate-footer">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> 支付宝</a>
+              </li>
+              <li role="presentation" class="">
+                <a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> 微信支付</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -471,6 +555,33 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
    
 
 
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 
