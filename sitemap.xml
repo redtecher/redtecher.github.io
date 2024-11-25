@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2024/11/23/post/</loc>
+    <loc>http://redtecher.cn/2024/11/23/post/</loc>
     
     <lastmod>2024-11-23</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://redtecher.cn/tags/index.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://redtecher.cn/categories/index.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/404.html</loc>
+    <loc>http://redtecher.cn/404.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/books/index.html</loc>
+    <loc>http://redtecher.cn/books/index.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>http://redtecher.cn/about/index.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/links/index.html</loc>
+    <loc>http://redtecher.cn/links/index.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/repository/index.html</loc>
+    <loc>http://redtecher.cn/repository/index.html</loc>
     
     <lastmod>2024-11-19</lastmod>
     
@@ -75,16 +75,16 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2024-11-23</lastmod>
+    <loc>http://redtecher.cn/</loc>
+    <lastmod>2024-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90%EF%BC%8CMISC/</loc>
-    <lastmod>2024-11-23</lastmod>
+    <loc>http://redtecher.cn/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90%EF%BC%8CMISC/</loc>
+    <lastmod>2024-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -92,8 +92,8 @@
 
   
   <url>
-    <loc>http://example.com/categories/CTF/</loc>
-    <lastmod>2024-11-23</lastmod>
+    <loc>http://redtecher.cn/categories/CTF/</loc>
+    <lastmod>2024-11-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
