@@ -1,5 +1,6 @@
+http://redtecher.cn/2025/04/10/post-1/
 http://redtecher.cn/2025/03/12/A%20Review%20of%20IoT%20Firmware%20Vulnerabilities%20and%20Auditing%20Techniques/
-http://redtecher.cn/2024/11/23/post/
+http://redtecher.cn/2024/11/23/MISC%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90%E9%A2%98/
 http://redtecher.cn/tags/index.html
 http://redtecher.cn/categories/index.html
 http://redtecher.cn/404.html
@@ -10,5 +11,6 @@ http://redtecher.cn/repository/index.html
 http://redtecher.cn/
 http://redtecher.cn/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90%EF%BC%8CMISC/
 http://redtecher.cn/tags/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E6%8A%A5%E5%91%8A/
+http://redtecher.cn/tags/docker-pytorch/
 http://redtecher.cn/categories/CTF/
 http://redtecher.cn/categories/IOT/

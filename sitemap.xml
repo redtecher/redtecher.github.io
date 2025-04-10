@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://redtecher.cn/2025/04/10/post-1/</loc>
+    
+    <lastmod>2025-04-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://redtecher.cn/2025/03/12/A%20Review%20of%20IoT%20Firmware%20Vulnerabilities%20and%20Auditing%20Techniques/</loc>
     
     <lastmod>2025-03-12</lastmod>
@@ -11,9 +20,9 @@
   </url>
   
   <url>
-    <loc>http://redtecher.cn/2024/11/23/post/</loc>
+    <loc>http://redtecher.cn/2024/11/23/MISC%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90%E9%A2%98/</loc>
     
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2024-11-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>http://redtecher.cn/</loc>
-    <lastmod>2025-03-12</lastmod>
+    <lastmod>2025-04-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,14 +102,21 @@
   
   <url>
     <loc>http://redtecher.cn/tags/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90%EF%BC%8CMISC/</loc>
-    <lastmod>2025-03-12</lastmod>
+    <lastmod>2025-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://redtecher.cn/tags/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E6%8A%A5%E5%91%8A/</loc>
-    <lastmod>2025-03-12</lastmod>
+    <lastmod>2025-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://redtecher.cn/tags/docker-pytorch/</loc>
+    <lastmod>2025-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -109,14 +125,14 @@
   
   <url>
     <loc>http://redtecher.cn/categories/CTF/</loc>
-    <lastmod>2025-03-12</lastmod>
+    <lastmod>2025-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://redtecher.cn/categories/IOT/</loc>
-    <lastmod>2025-03-12</lastmod>
+    <lastmod>2025-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

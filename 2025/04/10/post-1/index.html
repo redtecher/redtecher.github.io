@@ -17,18 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>404 Not Found：该页无法显示 | Hong Chuan</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="404 Not Found：该页无法显示">
-<meta property="og:url" content="http://redtecher.cn/404.html">
+  <title>docker  pytorch配置 | Hong Chuan</title>
+  <meta name="description" content="1.docker镜像更换https:&#x2F;&#x2F;docker.xuanyuan.me&#x2F; windows12345678910111213&#123;  &quot;builder&quot;: &#123;    &quot;gc&quot;: &#123;      &quot;defaultKeepStorage&quot;: &quot;20GB&quot;,      &quot;enabled&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="docker  pytorch配置">
+<meta property="og:url" content="http://redtecher.cn/2025/04/10/post-1/index.html">
 <meta property="og:site_name" content="Hong Chuan">
+<meta property="og:description" content="1.docker镜像更换https:&#x2F;&#x2F;docker.xuanyuan.me&#x2F; windows12345678910111213&#123;  &quot;builder&quot;: &#123;    &quot;gc&quot;: &#123;      &quot;defaultKeepStorage&quot;: &quot;20GB&quot;,      &quot;enabled&amp;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-11-21T14:54:01.507Z">
-<meta property="article:modified_time" content="2024-11-19T02:07:41.000Z">
+<meta property="article:published_time" content="2025-04-10T01:27:15.000Z">
+<meta property="article:modified_time" content="2025-04-10T01:53:51.225Z">
 <meta property="article:author" content="Hong Chuan">
+<meta property="article:tag" content="docker pytorch">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://redtecher.cn/404.html">
+  <link rel="canonical" href="http://redtecher.cn/2025/04/10/post-1/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hong Chuan" type="application/atom+xml">
   
@@ -309,14 +312,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="page-" class="article article-type-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-post-1" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      404 Not Found：该页无法显示
+      docker  pytorch配置
     </h1>
   
 
@@ -324,22 +327,54 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/404.html" class="article-date">
-	  <time datetime="2024-11-21T14:54:01.507Z" itemprop="datePublished">2024-11-21</time>
+	<a href="/2025/04/10/post-1/" class="article-date">
+	  <time datetime="2025-04-10T01:27:15.000Z" itemprop="datePublished">2025-04-10</time>
 	</a>
 </span>
         
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/docker-pytorch/" rel="tag">docker pytorch</a>
+  </span>
+
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/404.html#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2025/04/10/post-1/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <script type="text/javascript" src="//www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="<%- config.url %>" homePageName="回到我的主页"></script>
+        <h2 id="1-docker镜像更换"><a href="#1-docker镜像更换" class="headerlink" title="1.docker镜像更换"></a>1.docker镜像更换</h2><p><a target="_blank" rel="noopener" href="https://docker.xuanyuan.me/">https://docker.xuanyuan.me/</a></p>
+<h4 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="string">&quot;builder&quot;</span>: &#123;</span><br><span class="line">    <span class="string">&quot;gc&quot;</span>: &#123;</span><br><span class="line">      <span class="string">&quot;defaultKeepStorage&quot;</span>: <span class="string">&quot;20GB&quot;</span>,</span><br><span class="line">      <span class="string">&quot;enabled&quot;</span>: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="string">&quot;experimental&quot;</span>: <span class="literal">false</span>,</span><br><span class="line">  <span class="string">&quot;registry-mirrors&quot;</span>: [</span><br><span class="line">    <span class="string">&quot;https://docker.1ms.run&quot;</span>,</span><br><span class="line">    <span class="string">&quot;https://docker.xuanyuan.me&quot;</span></span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="1、修改-etc-docker-daemon-json，设置-registry-mirror，具体命令如下"><a href="#1、修改-etc-docker-daemon-json，设置-registry-mirror，具体命令如下" class="headerlink" title="1、修改 &#x2F;etc&#x2F;docker&#x2F;daemon.json，设置 registry mirror，具体命令如下:"></a><font style="color:rgb(243, 244, 246);background-color:rgb(0, 26, 0);">1、修改 &#x2F;etc&#x2F;docker&#x2F;daemon.json，设置 registry mirror，具体命令如下:</font></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim /etc/docker/daemon.json &lt;&lt;<span class="string">EOF</span></span><br><span class="line"><span class="string">&#123;</span></span><br><span class="line"><span class="string">    &quot;registry-mirrors&quot;: [</span></span><br><span class="line"><span class="string">        &quot;https://docker.1ms.run&quot;,</span></span><br><span class="line"><span class="string">        &quot;https://docker.xuanyuan.me&quot;</span></span><br><span class="line"><span class="string">    ]</span></span><br><span class="line"><span class="string">&#125;</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-重启docker"><a href="#2-重启docker" class="headerlink" title="2.重启docker:"></a>2.<font style="color:rgb(243, 244, 246);background-color:rgb(0, 26, 0);">重启docker:</font></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl daemon-reload</span><br><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="2-拉取容器"><a href="#2-拉取容器" class="headerlink" title="2.拉取容器"></a>2.拉取容器</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker pull pytorch/pytorch</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="3-运行容器"><a href="#3-运行容器" class="headerlink" title="3.运行容器"></a>3.运行容器</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --gpus all -d -ti -v /root/test:/root/soft --name=wangguohong --ipc=host -it pytorch/pytorch:latest</span><br></pre></td></tr></table></figure>
+
+<h2 id="进入容器"><a href="#进入容器" class="headerlink" title="进入容器"></a>进入容器</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> -e TERM=xterm-256color -it 0288d374a4a1 /bin/bash</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-打包"><a href="#4-打包" class="headerlink" title="4.打包"></a>4.打包</h2><p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/liftsail/p/18244202">https://www.cnblogs.com/liftsail/p/18244202</a></p>
+<h2 id="5-挂载目录"><a href="#5-挂载目录" class="headerlink" title="5.挂载目录"></a>5.挂载目录</h2><p> <font style="color:rgba(0, 0, 0, 0.8);background-color:rgb(235, 246, 255);">使用 </font><em><strong><font style="color:rgb(68, 68, 68);background-color:rgb(249, 249, 249);">-v</font></strong></em><font style="color:rgba(0, 0, 0, 0.8);background-color:rgb(235, 246, 255);"> 参数可以将宿主机上的目录挂载到容器中的指定目录。例如，以下命令将宿主机的 </font><em><strong><font style="color:rgb(68, 68, 68);background-color:rgb(249, 249, 249);">&#x2F;root&#x2F;test</font></strong></em><font style="color:rgba(0, 0, 0, 0.8);background-color:rgb(235, 246, 255);"> 目录挂载到容器的 </font><em><strong><font style="color:rgb(68, 68, 68);background-color:rgb(249, 249, 249);">&#x2F;root&#x2F;soft</font></strong></em><font style="color:rgba(0, 0, 0, 0.8);background-color:rgb(235, 246, 255);"> 目录：</font></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --name <span class="built_in">test</span> -it --privileged -v /root/test:/root/soft centos:6 /bin/bash</span><br></pre></td></tr></table></figure>
+
+
+
+
 
       
     </div>
@@ -349,7 +384,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://redtecher.cn/404.html" title="404 Not Found：该页无法显示" target="_blank" rel="external">http://redtecher.cn/404.html</a>
+      <a href="http://redtecher.cn/2025/04/10/post-1/" title="docker  pytorch配置" target="_blank" rel="external">http://redtecher.cn/2025/04/10/post-1/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -380,12 +415,28 @@
   </article>
   
     
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
+
 
   
 </div>
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2025/03/12/A%20Review%20of%20IoT%20Firmware%20Vulnerabilities%20and%20Auditing%20Techniques/" title="A Review of IoT Firmware Vulnerabilities and Auditing Techniques"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
   
   
   <!-- Button trigger modal -->
@@ -501,6 +552,37 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+   
+
+
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 
