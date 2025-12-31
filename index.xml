@@ -6,8 +6,15 @@
     <description>Recent content on redtecher</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Dec 2025 16:10:47 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 10:15:50 +0800</lastBuildDate>
     <atom:link href="https://redtecher.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WAVLINK-NU516U1-WO-A-2024-04-25-b516aec-GDBYFM固件仿真</title>
+      <link>https://redtecher.cn/posts/2025-12-31/</link>
+      <pubDate>Wed, 31 Dec 2025 10:15:50 +0800</pubDate>
+      <guid>https://redtecher.cn/posts/2025-12-31/</guid>
+      <description>&lt;h2 id=&#34;固件解包直接解包&#34;&gt;固件解包直接解包&lt;/h2&gt;&#xA;&lt;p&gt;使用FirmDissector&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2025/png/47776519/1767147158421-be8a850f-853c-42dd-b7fa-51852dd9ab30.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;固件分析&#34;&gt;固件分析&lt;/h2&gt;&#xA;&lt;p&gt;Mipsel架构&lt;/p&gt;&#xA;&lt;p&gt;firmwalker检查 lighttpd服务&lt;/p&gt;&#xA;&lt;h2 id=&#34;干预分析&#34;&gt;干预分析&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1干预1&#34;&gt;（1）干预1&lt;/h3&gt;&#xA;&lt;p&gt;第一次启动&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://cdn.nlark.com/yuque/0/2025/png/47776519/1767147158439-acdaec99-ff6e-4ff4-8b69-f132bd802fa6.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;报错信息如下&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-plain&#34; data-lang=&#34;plain&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/etc/init.d # lighttpd start&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2025-12-30 15:03:30: (server.c.824) No configuration available. Try using -f option. &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/etc/init.d # ./lighttpd start&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Can&amp;#39;t open /var/lock/passwd&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir: can&amp;#39;t create directory &amp;#39;/var/&amp;#39;: No such file or directory&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;chgrp: /var/log/lighttpd: No such file or directory&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cp: can&amp;#39;t stat &amp;#39;/rom/etc/lighttpd/lighttpd.conf&amp;#39;: No such file or directory&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2025-12-30 15:04:18: (server.c.925) opening pid-file failed: /var/run/lighttpd.pid No such file or directory&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;执行命令&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Emulation vs Rehosting</title>
       <link>https://redtecher.cn/posts/2025-12-29/</link>
